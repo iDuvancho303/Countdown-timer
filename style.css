@@ -4,6 +4,14 @@
     box-sizing: border-box;
 }
 
+.stars {
+    position: absolute;
+}
+
+.hills {
+    position: fixed;
+    bottom: 0;
+}
 body {
     font-family: 'Red Hat Text', sans-serif;
     background-color: hsl(235, 16%, 14%);
@@ -17,6 +25,8 @@ ul {
     list-style-type: none;
 }
 
+
+
 .attribution { 
     font-size: 11px; 
     text-align: center; 
@@ -27,5 +37,22 @@ ul {
 .attribution a { 
     color: hsl(228, 45%, 44%); 
 }
+
+/*MEDIA QUERY*/
+
+@media (min-width: 1440px) {
+    .stars img,
+    .hills img {
+        width: 1600px;
+    }
+}
+
+@media (min-width: 1600px) {
+    .stars img,
+    .hills img {
+        width: 1920px;
+    }
+}
+
 
 
