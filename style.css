@@ -38,6 +38,24 @@ ul {
     color: hsl(228, 45%, 44%); 
 }
 
+/*SOCIAL MEDIA*/
+#social {
+    position: absolute;
+    bottom: 30px;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 999;
+}
+
+.links-social-media {
+    display: flex;
+}
+
+.links-social-media  li {
+    margin: 0 20px
+}
+/*END SOCIAL MEDIA */
+
 /*MEDIA QUERY*/
 
 @media (min-width: 1440px) {
