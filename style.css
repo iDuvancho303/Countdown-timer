@@ -49,34 +49,26 @@ ul {
 }
 
 /*SOCIAL MEDIA*/
-#social {
-    position: absolute;
-    bottom: 30px;
+.social {
+    position: fixed;
+    border-bottom: px;
     left: 50%;
     transform: translateX(-50%);
     z-index: 999;
-}
-
-.social h2 {
-    text-align: center;
-    color: #fff;
-    padding-bottom: 10px;
-
-
-}
-
-.links-social-media {
-    display: flex;
-}
-
-.links-social-media  li {
-    margin: 0 20px
 }
 
 #profile-link {
     color: #fff;
     font-size: 40px;
     text-decoration: none;
+}
+
+.social ul {
+    display: flex;
+}
+
+.social ul li {
+    margin: 0 20px;
 }
 /*END SOCIAL MEDIA */
 
