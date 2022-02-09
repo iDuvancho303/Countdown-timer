@@ -50,11 +50,18 @@ ul {
 
 /*SOCIAL MEDIA*/
 .social {
-    position: fixed;
-    border-bottom: px;
+    position: absolute;
+    bottom: 50px;
     left: 50%;
     transform: translateX(-50%);
     z-index: 999;
+}
+
+.social h2 {
+    text-align: center;
+    color: white;
+    margin-bottom: 15px;
+    
 }
 
 #profile-link {
