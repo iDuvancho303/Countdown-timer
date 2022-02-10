@@ -32,6 +32,7 @@ ul {
     align-items: center;
     align-items: center;
     justify-content: center;
+    margin-top: 200px;
 }
 
 /*COUNTDOWN*/
@@ -46,11 +47,25 @@ ul {
     padding: 10px;
 }
 
+.container h1 {
+    color: #fff;
+    font-size: 24px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    margin-bottom: 50px;
+}
+
 .countdown p {
     padding: 10px;
     background-color: hsl(236, 21%, 26%);
+    font-size: 45px;
     color: hsl(345, 95%, 68%);
     border-radius: 5px;    
+}
+
+.countdown h3 {
+    color: #fff;
+    opacity: 0.5;
 }
 /*END CONTAINER SECTION*/
 
