@@ -33,6 +33,25 @@ ul {
     align-items: center;
     justify-content: center;
 }
+
+/*COUNTDOWN*/
+.countdown {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    text-align: center;
+}
+
+.countdown div {
+    padding: 10px;
+}
+
+.countdown p {
+    padding: 10px;
+    background-color: hsl(236, 21%, 26%);
+    color: hsl(345, 95%, 68%);
+    border-radius: 5px;    
+}
 /*END CONTAINER SECTION*/
 
 
@@ -61,6 +80,7 @@ ul {
     text-align: center;
     color: white;
     margin-bottom: 15px;
+    opacity: 0.5;
     
 }
 
@@ -68,6 +88,7 @@ ul {
     color: #fff;
     font-size: 40px;
     text-decoration: none;
+    opacity: 0.5;
 }
 
 .social ul {
