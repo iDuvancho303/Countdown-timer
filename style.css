@@ -66,6 +66,10 @@ ul {
 .countdown h3 {
     color: #fff;
     opacity: 0.5;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 20px;
+    margin-top: 10px;
 }
 /*END CONTAINER SECTION*/
 
@@ -74,6 +78,7 @@ ul {
 .attribution { 
     font-size: 11px; 
     text-align: center; 
+    color: #fff;
 }
     
 
