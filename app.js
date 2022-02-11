@@ -1,5 +1,5 @@
 const countdown = () => {
-    const endDate = new Date(' Monday May 30, 2022 00:00:00').getTime()
+    const endDate = new Date('Feb 11, 2022 21:38:00').getTime()
     const now = new Date().getTime()
     
     const difference = endDate - now
@@ -14,6 +14,11 @@ const countdown = () => {
     const timeMinutes = Math.floor((difference % hours) / minutes)
     const timeSeconds = Math.floor((difference % minutes) / seconds)
 
-    console.log(timeSeconds);
+    
+
+    document.getElementById('days').innerHTML = timeDays
+    document.getElementById('hours').innerHTML = timeHours
+    document.getElementById('minutes').innerHTML = timeMinutes
+    document.getElementById('seconds').innerHTML = timeSeconds
 }
 countdown()
