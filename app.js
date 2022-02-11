@@ -9,10 +9,16 @@ const countdown = () => {
     const hours = minutes * 60
     const days = hours * 24
 
-    const timeDays = Math.floor(difference / days)
-    const timeHours = Math.floor((difference % days) / hours)
-    const timeMinutes = Math.floor((difference % hours) / minutes)
-    const timeSeconds = Math.floor((difference % minutes) / seconds)
+    let timeDays = Math.floor(difference / days)
+    let timeHours = Math.floor((difference % days) / hours)
+    let timeMinutes = Math.floor((difference % hours) / minutes)
+    let timeSeconds = Math.floor((difference % minutes) / seconds)
+
+
+    timeHours = timeHours < 10 ? "0" + timeHours : timeHours
+    timeMinutes = timeMinutes < 10 ? "0" + timeMinutes : timeMinutes
+    timeSeconds = timeSeconds < 10 ? "0" + timeSeconds : timeSeconds
+    
 
     
 
@@ -22,3 +28,6 @@ const countdown = () => {
     document.getElementById('seconds').innerHTML = timeSeconds
 }
 countdown()
+
+
+setInterval(countdown, 1000)
