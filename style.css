@@ -6,6 +6,7 @@
 
 .stars {
     position: absolute;
+    z-index: -1;
 }
 
 .hills {
@@ -81,8 +82,6 @@ ul {
     text-align: center; 
     color: #fff;
 }
-    
-
 
 .attribution a { 
     color: hsl(228, 45%, 44%); 
