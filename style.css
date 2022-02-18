@@ -149,13 +149,24 @@ ul {
     }
 
     #profile-link {
-        font-size: 25px;
+        font-size: 40px;
         color: #fff;
         opacity: 1;
     }
 
     .social {
         margin-bottom: 50px;
+    }
+
+    .countdown h3 {
+        color: #fff;
+        opacity: 0.9;
+        text-transform: uppercase;
+        letter-spacing: 1.5px;
+        font-size: 16px;
+        margin-top: 10px;
+
+        }
     }
 }
 
